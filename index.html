@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Burger Square</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<header class="header">
+		<div class="contenedor">
+			<div class="centrado">
+				<div class="aviso arriba">
+					<p>
+						<span>20%</span> Descuento al reservar en línea
+					</p>
+				</div>
+				<div class="contenido-centrado">
+					<h1>Gran Apertura</h1>
+					<p class="fecha">06 / Febrero / 2021</p>
+					<p class="ubicacion">Acueducto 301 - 04125225779</p>
+				</div>
+				<div class="aviso abajo">
+					<p>#Hamburguesa</p>
+				</div>
+			</div>
+		</div>
+	</header> <!-- header -->
+	<nav class="navegacion">
+		<div class="contenedor">
+			<ul>
+				<li>
+                    <a href="#"><i class="fas fa-home"></i> Inicio</a>
+				</li>
+				<li>
+					<a href="#"><i class="fas fa-user-friends"></i> Nosotros</a>
+				</li>
+				<li>
+					<a href="#"><i class="far fa-calendar-times"></i> Reservaciones</a>
+				</li>
+				<li>
+					<a href="#"><i class="fas fa-envelope"></i> Contacto</a>
+				</li>
+			</ul>
+		</div>
+	</nav> <!-- navegacion -->
+	<main class="contenedor contenido">
+		<h2>Las Mejores Hamburguesas de la Ciudad</h2>
+		<div class="menu-cards">
+			<div class="card">
+				<img src="img/1.jpg" alt="image1">
+				<h3>Combo Sencillo</h3>
+				<ul>
+					<li>Hamburgusa con carne y pollo</li>
+					<li>Ensalada</li>
+					<li>Papas fritas</li>
+					<li>Bebida</li>
+				</ul>
+				<p>5$</p>
+				<a href="#">Reservar</a>
+			</div>
+			<div class="card">
+				<img src="img/2.jpg" alt="image2">
+				<h3>The Great King</h3>
+				<ul>
+					<li>Hamburgusa con carne y pollo</li>
+					<li>Ensalada</li>
+					<li>Papas fritas</li>
+					<li>Bebida</li>
+				</ul>
+				<p>10$</p>
+				<a href="#">Reservar</a>
+			</div>
+			<div class="card">
+				<img src="img/3.jpg" alt="image3">
+				<h3>Burger 2.0 Pro Max</h3>
+				<ul>
+					<li>Hamburgusa con carne y pollo</li>
+					<li>Ensalada</li>
+					<li>Papas fritas</li>
+					<li>Bebida</li>
+				</ul>
+				<p>15$</p>
+				<a href="#">Reservar</a>
+			</div>
+		</div>
+	</main> <!-- contenido principal -->
+	<div id="mapa" class="mapa"></div>
+	<div class="descripcion">
+		<div class="info">
+			<div class="contenedor">
+				<h3>
+					Tiempo Récord
+					<i class="far fa-clock"></i>
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud.
+				</p>
+			</div>
+		</div>
+		<div class="info activo">
+			<div class="contenedor">
+				<h3>
+					Personal Calificado
+					<i class="fas fa-users"></i>
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud.
+				</p>
+			</div>
+		</div>
+		<div class="info">
+			<div class="contenedor">
+				<h3>
+					Reparto a Domicilio
+					<i class="fas fa-biking"></i>
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud.
+				</p>
+			</div>
+		</div>
+	</div> <!-- descripcion -->
+	<div class="categorias">
+		<div class="contenedor">	
+			<ul>
+	            <li><a href="#"><i class="fas fa-store"></i>Locales</a></li>
+            	<li><a href="#"><i class="fas fa-carrot"></i>Ingredientes</a></li>
+            	<li><a href="#"><i class="fas fa-utensils"></i>Restaurantes</a></li>
+            	<li><a href="#"><i class="fas fa-check"></i>Tips</a></li>
+        	</ul>
+        </div>
+	</div> <!-- categorias -->
+	<footer class="footer">
+		<div class="contenedor">
+			<div class="seccion-footer">
+				<h3>Menú</h3>
+				<div class="botones">
+					<a href="#" class="boton">Inicio</a>
+					<a href="#" class="boton">Nosotros</a>
+					<a href="#" class="boton">Reservaciones</a>
+					<a href="#" class="boton">Contacto</a>
+				</div>
+			</div>
+			<div class="seccion-footer">
+				<h3>Redes Sociales</h3>
+				<div class="redes">
+					<a href="#"><i class="fab fa-facebook-square"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="t.me/deibysarteaga"><i class="fab fa-telegram-plane"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-discord"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="copy">
+			<p>Burger Square 2021 &copy;</p>
+		</div>
+	</footer>
+
+	<script src="js/leaflet.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
